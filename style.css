@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color:blue
+}
+.change{
+    background-color: lightgrey;
+}
+.highlight{
+    background-color: salmon;
+}
+.important{
+    font-weight: 900;
+}
+.success{
+    border: solid 2px rgb(0,109,0);
+}
