@@ -1,16 +1,41 @@
-a{
-    text-decoration: none;
-    color:blue
+
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(237, 242, 255);
 }
-.change{
-    background-color: lightgrey;
+
+.container {
+    width: 350px;
+    margin: auto;
 }
-.highlight{
-    background-color: salmon;
+
+h1 {
+    text-align: center;
 }
-.important{
-    font-weight: 900;
+
+form * {
+    display: block;
+    margin-top: 10px !important;
+    margin: auto;
 }
-.success{
-    border: solid 2px rgb(0,109,0);
+
+input {
+    width: 250px;
+    border: solid 1px rgb(87, 87, 87);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    width: 250px;
+    height: 80px;
+    border: solid 1px rgb(87, 87, 87);
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#submit {
+    padding: 10px;
+    background-color: rgb(0, 163, 76);
 }
