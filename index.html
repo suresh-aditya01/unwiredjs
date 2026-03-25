@@ -14,12 +14,14 @@
 <div class="container">
     <h1>Customer Feedback</h1>
     <form class="feedback-form">
-        <input type="text" name="username" placeholder="Username" autocomplete="off">
-        <textarea  id="feedback" placeholder="Feedback" autocomplete="off"></textarea>
+
+        <input onkeyup="usernamevalidation(event)" type="text" name="username" placeholder="Username" autocomplete="off">
+        <textarea onkeyup="feedbackvalidation(event)" id="feedback" name="feedback" autocomplete="off"></textarea>
     <input type="submit" id="submit" value="Submit"></form>
+    <p></p>
 
 </div>
-    <script src="index2.js"> </script>
+    <script src="script.js"> </script>
 
 
 </body>
